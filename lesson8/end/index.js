@@ -1,6 +1,9 @@
 const API_URL = "http://localhost:8888";
 
 let ACCESS_TOKEN = undefined;
+/* To run this file on a server, we are using httpster. 
+Type `httpster index.html -p 5000` in your console to start the server. */
+
 let webAuth = new auth0.WebAuth({
   domain: 'joel-1.auth0.com',
   clientID: '8vXPduLlATyDg69DF13J7JY4xN2vveOG',

@@ -1,3 +1,6 @@
+/* To run this file on a server, we are using httpster. 
+Type `httpster index.html -p 5000` in your console to start the server. */
+
 const API_URL = "http://localhost:8888";
 const AUTH_URL = "http://localhost:3000";
 
